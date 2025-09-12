@@ -3,7 +3,10 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/include/valgrind/vki",
+                "/usr/include/",
+                "/workspaces/AprendiendoC-/c/Unix-Networking/"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
